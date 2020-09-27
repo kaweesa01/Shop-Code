@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div>
+          <h1 class="err"></h1>
+        <form>
+          <input class="kilometer" type="number" placeholder="Enter kilometers/km" />
+          <select class="item" name="items" id="">
+            <option value="Bread">Bread</option>
+            <option value="Egg">Egg</option>
+            <option value="Juice">Juice</option>
+          </select>
+          <button class="order">Order</button>
+        </form>
+      </div>
+
+      <div class="pricing-div">
+        <h2>Price and Billing</h2>
+
+        <div>
+          <div style="display: flex; justify-content:flex-start ; align-items: center; ;">
+            <h3>Item :</h3>
+            <span class="itemValue" style="padding-left: 5px"> </span>
+          </div>
+          <div style="display: flex; justify-content:flex-start ; align-items: center; ;">
+            <h3>Transport :</h3>
+            <span class="transport" style="padding-left: 5px"></span>
+          </div>
+          <div style="display: flex; justify-content:flex-start ; align-items: center; ;">
+            <h3>Item cost :</h3>
+            <span class="cost" style="padding-left: 5px"></span>
+          </div>
+          <div style="display: flex; justify-content:flex-start ; align-items: center; ;">
+            <h3>Total :</h3>
+            <span class="total" style="padding-left: 5px"></span>
+          </div>
+        </div>
+        <div>
+            <button>Confirm Order</button>
+            <button class="cancel">Cancel Order</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script src="./script.js"></script>
+</html>
